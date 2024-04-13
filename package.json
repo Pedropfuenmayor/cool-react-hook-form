@@ -1,7 +1,7 @@
 {
   "name": "cool-react-hook-form",
   "description": "Performant, flexible and extensible forms library for React Hooks",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.mjs",
   "umd:main": "dist/index.umd.js",

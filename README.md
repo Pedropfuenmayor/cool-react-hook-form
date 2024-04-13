@@ -14,7 +14,7 @@ This fork of [react-hook-form](https://github.com/react-hook-form/react-hook-for
 ### Quickstart
 
 ```jsx
-import { useForm } from 'react-hook-form';
+import { useForm } from 'cool-react-hook-form';
 
 function App() {
   const {
