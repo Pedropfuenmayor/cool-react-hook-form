@@ -696,7 +696,8 @@ export function createFormControl<
     if (field) {
       let error;
       let isValid;
-      const fieldValue = getCurrentFieldValue();
+      const fieldValue =
+        getCurrentFieldValue() === '' ? undefined : getCurrentFieldValue();
       const isBlurEvent =
         event.type === EVENTS.BLUR || event.type === EVENTS.FOCUS_OUT;
       const shouldSkipValidation =

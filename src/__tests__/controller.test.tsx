@@ -1005,7 +1005,7 @@ describe('Controller', () => {
         formState: { dirtyFields, isDirty },
       } = useForm<FormValues>({
         defaultValues: {
-          test: '',
+          test: undefined,
         },
       });
 

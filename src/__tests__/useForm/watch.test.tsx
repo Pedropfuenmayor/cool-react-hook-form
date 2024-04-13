@@ -351,7 +351,7 @@ describe('watch', () => {
       } = useForm<{
         lastName: string;
       }>({
-        defaultValues: { lastName: '' },
+        defaultValues: { lastName: undefined },
       });
       watch('lastName');
 
